@@ -1,4 +1,4 @@
-# Kraken.io Magento Extension
+# Kraken.io Magento Extension / Welance no jquery Version
 
 **Advanced optimization for your Magento JPEG, PNG, GIF and SVG images**
 
