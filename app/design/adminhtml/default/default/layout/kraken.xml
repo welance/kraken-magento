@@ -6,7 +6,7 @@
             <action method="setTitle" translate="title"><title>Kraken.io</title></action>
             <action method="addCss"><name>kraken/images.css</name></action>
             <action method="addJs"><script>kraken/async.js</script></action>
-            <action method="addJs"><script>kraken/jquery.js</script></action>
+            <action method="addJs" ifconfig="welance_kraken/kraken_config/add_jquery"><script>kraken/jquery.js</script></action>
             <action method="addJs"><script>kraken/optimize.v2.min.js</script></action>
         </reference>
         <reference name="menu">

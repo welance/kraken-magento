@@ -8,6 +8,7 @@
     }
 
     $imagesJson = $this->getNewImagesAsJson();
+
     $total = count(json_decode($imagesJson));
     $toBeOptimized = $folderImagesCount - $imagesCount;
 
