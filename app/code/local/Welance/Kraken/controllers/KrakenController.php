@@ -30,10 +30,8 @@ class Welance_Kraken_KrakenController extends Mage_Adminhtml_Controller_Action
         $helper = Mage::helper('welance_kraken');
         $helper->removeDeletedImagesFromDatabase();
 
-        Mage::log('render: ' .date('H:i:s'),null,'time.log');
         $this->loadLayout();
         $this->renderLayout();
-        Mage::log('render: ' .date('H:i:s'),null,'time.log');
     }
 
     public function optimizeAction()
@@ -97,5 +95,10 @@ class Welance_Kraken_KrakenController extends Mage_Adminhtml_Controller_Action
 
         $this->getResponse()->setBody(Mage::helper('core')->jsonEncode($response));
         $this->getResponse()->setHeader('Content-type', 'application/json');
+    }
+
+    protected function _isAllowed()
+    {
+        return true;
     }
 }
