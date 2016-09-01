@@ -11,5 +11,3 @@ app/etc/modules/Welance_Kraken.xml app/etc/modules/Welance_Kraken.xml
 js/kraken js/kraken
 
 skin/adminhtml/default/default/kraken skin/adminhtml/default/default/kraken
-
-shell/kraken shell/kraken
